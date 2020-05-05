@@ -1,0 +1,132 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+@import 'loaders';
+@import 'scroll';
+@import 'fullScreen';
+@import 'latidos';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~admin-lte/dist/css/adminlte.css';
+@import '~font-awesome/scss/font-awesome';
+//@import '~datatables.net-dt/css/jquery.dataTables.css';
+@import '~datatables.net-bs4/css/dataTables.bootstrap4.css';
+@import '~datatables.net-buttons-bs4/css/buttons.bootstrap4.css';
+
+//@import '~datatables.net-dt/css/jquery.dataTables.css';
+//// 
+@import 'tablas';
+
+//highcharts creditos
+.highcharts-credits {
+  display: none;
+}
+
+.card-body{
+  background: #fff;
+}
+.main-footer {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 50px;
+  transform: translateY(calc(100% - 50px));
+  bottom: 0;
+  z-index: 5;
+}
+#sidebar-overlay{
+  z-index: 999;
+}
+
+.main-sidebar{
+    z-index: 1001;
+}
+//Modal
+.modal-height-responsive {
+   /* max-height: calc(100vh - 120px);
+    min-height: calc(100vh - 120px);*/
+    overflow: auto;
+}
+ 
+.modal-body > div, .modal-body > section { 
+  overflow: auto; 
+  /*min-height: calc(100vh - 140px);*/
+   
+}
+.modal { 
+  z-index: 10000; 
+}
+//Erros
+.errors_message{
+        color: #c33232;
+        font-size: 0.9em;
+}
+/**Valida errors
+*/ 
+.response-rol-rtpa {
+    font-size: 11px;
+    color: red;
+    font-style: italic;
+  }
+  .errors_validate {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ca0000;
+  }
+  .valida-error-input {
+    border: 1px solid #d81010;
+  }
+  .valida-error-html td {
+    border: 1px solid red;
+    outline: 1px solid red;
+    background: #fdffe8;
+  }
+
+//Items Detalles Permisos usuarios
+span.items_permisos_details {
+    display: inline-block;
+    border: 1px solid #38c172;
+    border-radius: 10px;
+    padding: 4px 10px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #4c5d53;
+}
+
+//ARBOL MULTICON
+
+.text-sm-arbol-decisiones{
+  font-size: 11px;
+}
+
+//SIDEBAR MENU
+.sidebar a.nav-link {
+  font-size: 12px;
+  padding: 8px 5px;
+}
+
+//DASHBOARD
+.text_modulo_publico {
+  font-size: 12px;
+  line-height: 14px;
+}
+.content-img-mod {
+  height: 60%;
+  max-height: 60px;
+}
+.content-text-mod {
+  height: 40%;
+}
+.img-modulo-general {
+  width: auto;
+  height: 100%;
+  margin: auto;
+}
+
+
+
+

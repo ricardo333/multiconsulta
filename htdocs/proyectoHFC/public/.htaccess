@@ -1,0 +1,50 @@
+<IfModule mod_rewrite.c>
+
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    RewriteRule ^images/$  /public/images/ [R=301,L]
+    RewriteRule ^files/$  /public/files/ [R=301,L]
+    RewriteRule ^files/download/$  /public/files/download/ [R=301,L]
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+
+
+     # Cabecera X-XSS-Protection para evitar ataques XSS en IE y Chrome
+    Header set X-XSS-Protection "1; mode=block"
+
+    # Cabecera X-Content-Type-Options para evitar que se carguen hojas de estilo o scripts maliciosos
+    Header set X-Content-Type-Options "nosniff"
+
+    # Cabecera X-Frame-Options para mejorar la seguridad
+    Header always append X-Frame-Options SAMEORIGIN
+    
+    #Restringir HTTP Methods distintos a PUT o POST
+    RewriteCond %{REQUEST_METHOD} ^(HEAD|PUT|DELETE|CONNECT|TRACE|TRACK|OPTIONS)
+    RewriteRule .* - [F]
+
+</IfModule>
+<IfModule mod_php7.c>
+  php_value max_execution_time 1200
+  php_value max_input_time 1200
+  php_value max_input_vars 1000
+  php_value memory_limit 512M
+  php_value post_max_size 32M
+  php_value upload_max_filesize 128M
+  php_value session.gc_maxlifetime 1200
+</IfModule>

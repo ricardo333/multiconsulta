@@ -1,0 +1,51 @@
+/**/
+#resultadoEstructuraCompleta {
+  font-size: 11px;
+  line-height: 12px;
+}
+
+#resultadoEstructuraCompleta ul {
+  /*padding-left: 16px;
+  margin-top: 5px;*/
+  list-style: none;
+  position: relative;
+  padding-left: 20px;
+}
+
+/**/
+a.secundarios {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 11px;
+  position: relative;
+  color: #4c4c4c;
+  padding: 2px 1px;
+  margin-bottom: 3px;
+  border: 1px solid #d8f1d8;
+  border-radius: 3px;
+}
+
+.padres li .padres {
+  display: none;
+}
+
+a.secundarios:hover {
+  text-decoration: none;
+}
+
+a#seleccionado {
+  background: #edfbef;
+  border: 1px solid #1bbd5f;
+}
+
+/**/
+.img-thumbnail-arbolPasos {
+  padding: 0.25rem;
+  background-color: #f8fafc;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 70px;
+  display: block;
+  margin: auto;
+  height: auto;
+}

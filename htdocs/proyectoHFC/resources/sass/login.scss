@@ -1,0 +1,135 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+ 
+// Variables
+@import 'loaders';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+*:focus { 
+    box-shadow: 0 0 0 0.2rem transparent !important;
+}
+.content-form-login-sis {
+    
+    background: rgba(224, 226, 226, 0.48);
+}
+.content-image-login-sis {
+    padding: 0;
+}
+img.img-content-login {
+    width: 100%;
+    height: 100vh;
+    min-height: 100%;
+    object-fit: cover;
+}
+.btn-sistema {
+    padding: 5px 30px;
+}
+.cuadro-content-login{
+	    width: 100%;
+		padding: 15px 0;
+		max-width: 345px;
+		margin: auto;
+}
+.texto-form-login {
+    text-align: end;
+    font-size: 0.8em;
+}
+.cuadro-content-login h2 {
+    color: #032e38;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+div#respuesta-server-login {
+    font-size: 0.9em;
+    color: #f11;
+    font-style: italic;
+}
+.btn-sistema {
+    background: #032e38;
+    color: #fff;
+}
+label {
+    color: #032e38;
+    font-weight: 500;
+}
+.btn-registrarse {
+    background: #357296;
+    color: #fff;
+    width: 100%;
+}
+.text-cond-cont {
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.text-cond-cont {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+span.ingreso-condicional-txt {
+    margin: 0 5px;
+}
+i.linea-login {
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background: #444;
+    position: relative;
+    top: 0.15em;
+}
+.ingresa-txt {
+    margin-top: 15px;
+	    font-size: 1.1em;
+}
+/*Modal cambio de password*/
+
+.btn-sis {
+    background: #30626d;
+    color: #fff;
+    padding: 5px 25px;
+    width: 100%;
+    margin: auto;
+    display: block;
+    font-size: 1em;
+	transition: all .3s;
+	
+}
+.btn-sis:hover {
+    background: #1cb4d6;
+    color: #fff;
+	transition: all .3s;
+   
+}
+.modal-header {
+    padding: .2rem 1rem;
+}
+div#request_pass {
+    color: #ff0202;
+    font-style: italic;
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 10px;
+}
+
+.form-control-password {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border: none;
+    top: 0;
+    left: 0;
+}
+.btn-sistema:hover {
+    color: #ffffff; 
+}

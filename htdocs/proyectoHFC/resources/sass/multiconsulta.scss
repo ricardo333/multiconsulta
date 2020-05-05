@@ -1,0 +1,243 @@
+.list_tipo_m {
+    padding: 5px;
+    margin-left: 12px;
+    border-radius: 5px;
+    min-width: 170px;
+}
+.busqueda_txt {
+    padding: 5px;
+    border-radius: 10px;
+    min-width: 200px;
+}
+.btn-system {
+    margin-left: 10px;
+}
+.form-group {
+    margin: 1rem;
+}
+.content-form-multi{
+    background: rgb(39, 138, 176);
+}
+.info_search {
+  padding: 8px 0;
+}
+.details_result_info {
+  font-size: 13px;
+}
+.details_result_info .campo {
+  font-weight: 600;
+  color: #055802;
+}
+.details_result_info .result {
+  color: #bb0e0c;
+  margin-right: 5px;
+}
+/*tabla multiconsulta */
+.tabla-multiconsulta {
+    background: #fdfdfd;
+    color: #000000;
+    font-size: 12px;
+    line-height: 12px;
+    display: table;
+}
+.tabla-multiconsulta tr td {
+  padding: 5px 3px;
+  min-width: 80px;
+  border:1px solid #dff1df;
+  vertical-align: middle;
+}
+.tabla-multiconsulta td:nth-child(2n+1) {
+    background: #278ab0;
+    color: #fff;
+}
+table.table.info_adicional_status {
+  font-size: 13px;
+}
+.info_adicional_status td {
+  border: 1px solid #c9e0c9;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/*MAPA*/
+#mapa_content_multiconsulta{
+  height: calc(100vh - 150px);
+}
+/*EDIFICIOS*/
+#edificios_content_multiconsulta {
+  font-size: .8em;
+}
+ /*DECOS MODAL*/
+.tabla_result_decode_final {
+  font-size: .8em;
+}
+#result_decos_send {
+  font-size: 12px;
+}
+
+/*CATV*/
+.title_catv{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 15px 0px;
+}
+a#btnDeco2 {
+    padding: 15px;
+}
+/*tabla CATV */
+.tabla-catv { 
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: bold;
+    display: table;
+}
+.tabla-catv tr th {
+    background: #82c580;
+    color: #060606;
+}
+.tabla-catv tr td,.tabla-catv tr th  {
+    padding: 2px 4px;
+    min-width: 80px;
+    border: 1px solid #7d8e7d;
+}
+/*Intraway tabla*/
+.table-result-intraway-client {
+  font-size: 12px; 
+}
+#table-intraway-client-details{
+  text-align: center;
+}
+#table-intraway-client-details table tr:nth-child(2n) {
+  color: #fff;
+  background: #278ab0;
+}
+#table-intraway-client-info table td:nth-child(2n+1) {
+  background: #278ab0;
+  color: #fff;
+  font-weight: bold;
+}
+
+/*Acciones*/
+.acciones-btn a {
+  margin-bottom: 8px;
+}
+/*Resultados multiples modal */
+.result-form-multi h3 {
+  font-size: 18px;
+  color: #921c1c;
+}
+#tablaresvarios {
+  font-size: 11px;
+}
+#tablaresvarios td ,#tablaresvarios th{
+  padding: 8px 5px;
+  vertical-align: middle; 
+  text-align: center;
+} 
+#tablaresvarios th {
+  background: #00BCD4;
+  color: white;
+}
+div#info_client_multiple {
+  font-size: 13px;
+}
+#info_client_multiple .campo {
+  font-weight: bold;
+  color: #5f3705;
+}
+#info_client_multiple .result {
+  font-style: italic;
+  margin-right: 10px;
+  font-weight: 400;
+  color: #000000;
+}
+/*RFCM*/
+.result_rfcm_final td, .result_rfcm_final th {
+  padding: 5px;
+  font-size: 12px;
+  border: 1px solid #a2eac7;
+}
+.result_rfcm_final th, td.intraway_td_cabecera {
+  font-size: 14px;
+  background: #29a266;
+  color: #fff;
+  text-align: center;
+}
+.result_rfcm_final th { 
+  border-bottom: 2px solid #9be4c0;
+}
+/*Red Estructural*/
+#result_red_estructural img {
+  width: 100%;
+}
+div#result_red_estructural {
+  height: auto;
+}
+
+/*IPS*/
+.result_ips table {
+  font-size: 13px;
+}
+/*Status Down*/
+
+.title_down_modal {
+  font-size: 18px;
+  color: #8c0808;
+}
+.content-grafico-fetails {
+  font-size: 13px;
+}
+
+.content-grafico-fetails > section:nth-child(1) {
+  font-weight: bold;
+  color: #29a266;
+}
+.content-grafico-fetails > section, .content-grafico-fetails > div {
+  font-size: 12px;
+  color: #6d0707;
+}
+.content-grafico-fetails > section >.campo {
+  font-weight: bold;
+}
+.content-grafico-fetails > section >.result {
+  margin-right: 5px;
+}
+
+/*Velocidad*/
+#form_nvelocidad {
+  width: 450px;
+  background: #f9f4f4d9;
+  margin: auto;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/*Scroll*/
+.tabla-multiconsulta-content::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+.tabla-multiconsulta-content::-webkit-scrollbar
+{
+  width: 10px;
+  height: 12px;
+	background-color: #F5F5F5;
+}
+
+.tabla-multiconsulta-content::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #FFF;
+	background-image: -webkit-gradient(linear, 40% 0%, 75% 84%, from(#278ab0), to(#278ab0), color-stop(0.6, #38c172))
+}
+ 
+
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 700px; 
+    }
+}

@@ -1,0 +1,1 @@
+<textarea class="form-control" rows="16" name="diagnostico" id="diagnostico">{{$resultado}}</textarea>

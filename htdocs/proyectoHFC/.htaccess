@@ -1,0 +1,9 @@
+<IfModule mod_php7.c>
+  php_value max_execution_time 1200
+  php_value max_input_time 1200
+  php_value max_input_vars 1000
+  php_value memory_limit 512M
+  php_value post_max_size 32M
+  php_value upload_max_filesize 128M
+  php_value session.gc_maxlifetime 1200
+</IfModule>

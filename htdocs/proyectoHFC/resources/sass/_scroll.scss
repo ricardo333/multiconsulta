@@ -1,0 +1,78 @@
+//Body
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar
+{
+  width: 10px;
+  height: 12px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #FFF;
+	background-image: -webkit-gradient(linear,
+									   40% 0%,
+									   75% 84%,
+									   from(#4D9C41),
+									   to(#19911D),
+									   color-stop(.6,#54DE5D))
+}
+
+//Tabla
+
+.tableFixHead::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #F5F5F5;
+}
+.tableFixHead::-webkit-scrollbar
+{
+  width: 5px;
+  height: 12px;
+  background-color: #F5F5F5;
+}
+.tableFixHead::-webkit-scrollbar-thumb
+{
+  background-color: #00BCD4;
+  background-image: -webkit-linear-gradient(45deg,
+                                          rgba(255, 255, 255, .2) 25%,
+                                          transparent 25%,
+                                          transparent 50%,
+                                          rgba(255, 255, 255, .2) 50%,
+                                          rgba(255, 255, 255, .2) 75%,
+                                          transparent 75%,
+                                          transparent)
+}
+
+//Modal
+
+.modal-height-responsive::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #F5F5F5;
+}
+.modal-height-responsive::-webkit-scrollbar
+{
+  width: 5px;
+  height: 12px;
+  background-color: #F5F5F5;
+}
+.modal-height-responsive::-webkit-scrollbar-thumb
+{
+  background-color: #00BCD4;
+  background-image: -webkit-linear-gradient(45deg,
+                                          rgba(255, 255, 255, .2) 25%,
+                                          transparent 25%,
+                                          transparent 50%,
+                                          rgba(255, 255, 255, .2) 50%,
+                                          rgba(255, 255, 255, .2) 75%,
+                                          transparent 75%,
+                                          transparent)
+}

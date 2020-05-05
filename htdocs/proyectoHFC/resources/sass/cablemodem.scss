@@ -1,0 +1,61 @@
+.modal.show .modal-dialog {
+    min-width: 75%;
+}
+
+.modal-height-cablemodem {
+    overflow: auto;
+    min-height: 460px;
+}
+
+div#boton1 {
+    padding-top: 15px;
+    text-align: right;
+}
+
+.popup_window1 {
+	left: 50%;
+    margin-left: -222px;
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    background-color: #ffffff;
+    z-index: 9998;
+    -moz-box-shadow: 0 0 30px #555;
+    -webkit-box-shadow: 0 0 30px #555;
+    box-shadow: 0 0 30px #555;
+    padding: 20px 40px 40px 40px;
+    width: 360px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.popupRow {
+    padding: 0 0 8px;
+    min-height: 28px;
+    height: 35px;
+}
+
+.popupLeft {
+    float: left;
+}
+
+.popupRight {
+    float: right;
+}
+
+.popupPuerto1 {
+    padding-top: 25px;
+}
+
+.popupPuerto2 {
+    padding-top: 25px;
+}
+
+.max3 {
+    width: 30px;
+}
+
+.max5 {
+    width: 40px;
+}
+
