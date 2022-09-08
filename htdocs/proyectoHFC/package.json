@@ -33,6 +33,6 @@
         "datatables.net-buttons-dt": "^1.5.6",
         "datatables.net-dt": "^1.10.19",
         "font-awesome": "^4.7.0",
-        "jszip": "^3.2.2"
+        "jszip": "^3.7.0"
     }
 }
